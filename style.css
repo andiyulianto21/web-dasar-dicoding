@@ -1,0 +1,39 @@
+body {
+    font-family: arial;
+}
+
+img {
+    max-width: 60%;
+}
+
+h2, h3 {
+    color: rgb(87, 188, 222);
+}
+
+footer {
+    color: white;
+    padding: 2em;
+    background-color: rgb(87, 188, 222);
+}
+
+footer p {
+    text-align: center;
+}
+
+nav a {
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.profile img {
+    width: 25%;
+}
