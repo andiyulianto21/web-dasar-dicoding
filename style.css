@@ -11,42 +11,30 @@ body {
 
 .img {
     margin: 1em 0;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .img.pangkalpinang {
-    width: 100%;
-    height: 250px;
     background-image: url("img/jembatan-pkp.jpg");
     background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .img.geografis {
-    width: 100%;
-    height: 250px;
     background-image: url("img/geografis-bukit.jpg");
     background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .img.wisata-parai {
-    width: 100%;
-    height: 250px;
     background-image: url("img/pantai-parai-tenggiri.jpg");
     background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .img.wisata-maras {
-    width: 100%;
-    height: 250px;
     background-image: url("img/bukit-maras-bangka.jpg");
     background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 h2, h3 {
@@ -106,13 +94,13 @@ ul li a:hover {
 }
 
 .profile img {
-    width: 25%;
+    width: 20%;
 }
 
 /* MAIN */
 main article, aside .profile {
     margin: 1em;
-    padding: 1.5em;
+    padding: 2em;
     border: 1px solid rgba(128, 128, 128, .5);
     box-shadow: -2px 2px 5px rgba(128, 128, 128, .4);
 
